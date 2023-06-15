@@ -1,3 +1,183 @@
 body {
+    font-family: 'Kanit', sans-serif;
     margin: 0;
+}
+
+header {
+    background-color: #000000;
+    color: #F5F5F5;
+}
+/* ------------------------------------------ Header ----------------------------------------- */
+
+/* --------- Navbar -------------- */
+.navbar-custom {
+    background-color: #F5F5F5;
+    padding: 3% 5%;
+}
+
+.navbar-brand-custom {
+    color: #000000;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.nav-item-custom {
+    box-sizing: border-box;
+    padding: 2% 1%;
+}
+
+.nav-item-custom-nb {
+    border: none;
+}
+
+.nav-link-custom {
+    color: #000000;
+    font-size: 1.5rem;
+}
+
+.nav-link-active-custom {
+    color: #850000;
+    font-size: 1.5rem;
+}
+
+.sign-up-btn {
+    background-color: #850000;
+    border-color: #850000;
+    color: #F5F5F5;
+    font-size: 1.1rem;
+}
+
+.sign-up-btn:hover, .sign-up-btn:active, .sign-up-btn:focus {
+    background-color: #F5F5F5;
+    border-color: #850000;
+    color: #850000;
+}
+
+
+
+/* -------------------------------- */
+
+.header__row {
+    background-color: #000000;
+    color: #F5F5F5;
+    padding: 10% 5%;
+}
+
+.header__h1 {
+    font-size: 3.5rem;
+}
+
+.header__h2 {
+    color: #B2B2B2;
+    font-size: 2.5rem;
+}
+
+.header__col {
+    padding-right: 2%;
+}
+
+.header__col-img {
+    text-align: center;
+}
+
+/* ------------------------------------------ Main ------------------------------------------------- */
+
+
+
+.main__row {
+    padding: 3% 5%;
+}
+
+.color-section {
+    background-color: #850000;
+    color: #F5F5F5;
+}
+
+.neutral-section {
+    background-color: #F5F5F5;
+    color: #000000;
+}
+
+.main__h2 {
+    font-size: 2.5rem;
+}
+
+.main__p {
+    font-size: 1.5rem;
+}
+
+.main__col-6 {
+    padding-right: 2%;
+}
+
+.main__col-img {
+    text-align: center;
+}
+
+/* -------------- Intro Statement --------- */
+
+#intro-statement {
+    padding: 7% 0;
+}
+
+.intro__p {
+    color: #F1C376;
+}
+
+/* ---------------------------------------- */
+
+/* -------------- Benefits ---------------- */
+
+#benefits {
+    padding: 7% 0;
+}
+
+.benefits__h2 {
+    text-align: center;
+}
+
+/* ---------------------------------------- */
+
+/* -------------- Call to Action ---------- */
+
+#cta {
+    background-color: #F1C376;
+    color: #000000;
+    text-align: center;
+    padding: 10% 5%;
+}
+
+.cta__h2 {
+    font-size: 2.5rem;
+    line-height: 2;
+}
+
+/* --------------------------------------------------------------------------------------------- */
+
+/* ----------------------------------------- Footer -------------------------------------------- */
+footer {
+    background-color: #000000;
+    color: #F5F5F5;
+}
+
+.footer__h2 {
+    font-size: 2.5rem;
+}
+
+.footer__p {
+    font-size: 1.5rem;
+}
+
+.footer__link {
+    display: block;
+    color: #F5F5F5;
+    font-size: 1.5rem;
+}
+
+.footer__row {
+    padding: 3% 5%;
+}
+
+.footer__col-right {
+    text-align: right;
 }
